@@ -25,31 +25,31 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:id="@+id/leftButtonsLayout"
+                    android:id="@+id/leftButtonLayout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="left"
-                    android:orientation="vertical">
+                    android:orientation="horizontal">
 
                     <Button
                         android:id="@+id/playButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
                         android:layout_weight="1"
-                        android:backgroundTint="#00BCD4"
-                        android:padding="5sp"
+                        android:backgroundTint="#4CAF50"
+                        android:padding="10sp"
                         android:text="@string/play_text" />
 
                     <Button
                         android:id="@+id/quitButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
                         android:layout_weight="1"
-                        android:backgroundTint="#00BCD4"
-                        android:padding="5sp"
+                        android:backgroundTint="#E53935"
+                        android:padding="10sp"
                         android:text="@string/quit_text" />
-
                 </LinearLayout>
 
                 <LinearLayout
@@ -73,40 +73,41 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/rightButtonsLayout"
+                    android:id="@+id/rightButtonLayout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="right"
-                    android:orientation="vertical">
+                    android:orientation="horizontal">
 
                     <Button
                         android:id="@+id/RulesButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
                         android:layout_weight="1"
                         android:backgroundTint="#00BCD4"
-                        android:padding="5sp"
-                        android:text="@string/undo_move_move" />
+                        android:padding="10sp"
+                        android:text="@string/rules_text" />
 
                     <Button
                         android:id="@+id/skipTurnButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
                         android:layout_weight="1"
-                        android:backgroundTint="#00BCD4"
-                        android:padding="5sp"
+                        android:backgroundTint="#03A9F4"
+                        android:padding="10sp"
                         android:text="@string/skip_turn_text" />
 
                     <Button
                         android:id="@+id/undoButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
                         android:layout_weight="1"
-                        android:backgroundTint="#00BCD4"
-                        android:padding="5sp"
+                        android:backgroundTint="#2196F3"
+                        android:padding="10sp"
                         android:text="@string/undo_move_move" />
-
                 </LinearLayout>
 
             </LinearLayout>
@@ -164,7 +165,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="1"
+                                android:text="@string/beeP1Counter"
                                 android:textColor="#FF5722" />
 
                             <ImageView
@@ -182,7 +183,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="2"
+                                android:text="@string/spiderP1Counter"
                                 android:textColor="#FF5722" />
 
                             <ImageView
@@ -200,7 +201,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="1"
+                                android:text="@string/beetleP1Counter"
                                 android:textColor="#FF5722" />
 
                             <ImageView
@@ -218,7 +219,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="2"
+                                android:text="@string/antP1Counter"
                                 android:textColor="#FF5722" />
 
                             <ImageView
@@ -236,7 +237,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="3"
+                                android:text="@string/grasshopperP1Counter"
                                 android:textColor="#FF5722" />
 
                         </LinearLayout>
@@ -300,7 +301,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="1"
+                                android:text="@string/beeP2Counter"
                                 android:textColor="#03A9F4" />
 
                             <ImageView
@@ -318,7 +319,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="2"
+                                android:text="@string/spiderP2Counter"
                                 android:textColor="#03A9F4" />
 
                             <ImageView
@@ -336,7 +337,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="1"
+                                android:text="@string/beetleP2Counter"
                                 android:textColor="#03A9F4" />
 
                             <ImageView
@@ -354,7 +355,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="3"
+                                android:text="@string/antP2Counter"
                                 android:textColor="#03A9F4" />
 
                             <ImageView
@@ -372,7 +373,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="3"
+                                android:text="@string/grasshopperP2Counter"
                                 android:textColor="#03A9F4" />
 
                         </LinearLayout>

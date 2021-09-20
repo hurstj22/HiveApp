@@ -7,5 +7,18 @@
     <string name="undo_move_move">Undo Move</string>
     <string name="player_one_text">Player 1</string>
     <string name="player_two_text">Player 2</string>
+    <string name="rules_text">rules</string>
+
+    <string name="beeP1Counter">1</string>
+    <string name="antP1Counter">2</string>
+    <string name="spiderP1Counter">2</string>
+    <string name="beetleP1Counter">1</string>
+    <string name="grasshopperP1Counter">3</string>
+
+    <string name="beeP2Counter">1</string>
+    <string name="antP2Counter">3</string>
+    <string name="spiderP2Counter">2</string>
+    <string name="beetleP2Counter">1</string>
+    <string name="grasshopperP2Counter">2</string>
 
 </resources>
