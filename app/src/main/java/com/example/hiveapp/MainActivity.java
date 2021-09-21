@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
         //creates the surface view for drawing hexagons on the playable game area
         HiveSurfaceView hiveSurfaceView = (HiveSurfaceView) findViewById(R.id.hiveSurfaceView);
+        //delete later
     }
 
 }
